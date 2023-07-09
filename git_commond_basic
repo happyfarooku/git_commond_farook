@@ -20,6 +20,10 @@ git push origin main
 change url
 ---------
 git remote set-url origin https://github.com/happyfarooku/git_commond_farook.git
+git remote set-url --push origin https://github.com/happyfarooku/git_commond_farook.git
+git remote set-url --fetch origin https://github.com/happyfarooku/git_commond_farook.git
+
+
 
 
 
