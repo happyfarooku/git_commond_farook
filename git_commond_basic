@@ -4,5 +4,27 @@ git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/happyfarooku/git_commond_farook.git
-git clone https://github.com/happyfarooku/react_my_app.git
+
 git push -u origin main
+git  pull -r
+git remote -v
+####################
+git clone https://github.com/happyfarooku/react_my_app.git
+git pull -r
+touch testfile
+git add testfile
+git commit -m "testfile commit"
+git push origin main
+
+########################
+change url
+---------
+git remote set-url origin https://github.com/happyfarooku/git_commond_farook.git
+
+
+
+
+
+
+
+
